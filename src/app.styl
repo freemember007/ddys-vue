@@ -1,0 +1,380 @@
+// 变量
+color_primary = #2ECC40
+color_darker = #333
+color_dark = #666
+color_gray = #999
+color_light = #ccc
+color_lighter = #ddd
+default_border_color = #eee
+default_bg_color = #eee
+default_header_height = 48px
+default_tabs_height = 58px
+
+font_little = 12px
+font_small = 14px
+font_normal = 16px
+font_big = 18px
+font_tiny = 20px
+space0 = 0
+space1 = 5px
+space2 = 10px
+space3 = 15px
+space4 = 20px
+
+// 重置浏览器行为
+html
+  color #333
+  background #fff
+  box-sizing border-box
+body,div,h1,h2,h3,h4,h5,h6,p,ul,li
+  margin 0
+  padding 0
+h1,h2,h3,h4,h5,h6
+  font-weight normal
+  line-height 1
+table
+  border-collapse collapse
+  border-spaceing 0
+img
+  border 0
+a
+  color #333
+  text-decoration none
+p
+  line-height 1.5
+ul
+  list-style none
+
+// color 参考clrs.cc
+.primary
+  color color_primary
+.dark
+  color color_dark
+.gray
+  color color_gray
+.light
+  color color_light
+.white
+  color #fff  
+.bg
+  background-color default_bg_color
+.bg-primary
+  background-color color_primary
+.bg-white
+  background-color #fff
+.bg-gray
+  background-color color_gray
+.bg-light
+  background-color color_light
+
+.navy
+  color #001f3f
+.blue
+  color #0074D9
+.aqua
+  color #7fdbff
+.teal
+  color #39cccc
+.olive
+  color #3d9970
+.green
+  color #2ECC40
+.lime
+  color #01ff70
+.yellow
+  color #FFDC00
+.orange
+  color #ff851b  
+.red
+  color #FF4136
+.maroon
+  color #85144b
+.fuchsia
+  color #f012be
+.purple
+  color #b10dc9
+.gray
+  color #aaa
+.silver
+  color #ddd
+
+
+// font
+.f5,.little,h5
+  font-size 12px
+.f4,.small,h4
+  font-size 14px
+.f3,.normal,h3
+  font-size 16px
+.f2,.big,h2
+  font-size 18px
+.f1,.tiny,h1
+  font-size 20px
+.bold
+  font-weight bold
+  
+// line-height
+.lh1
+  line-height 1
+.lh15
+  line-height 1.5
+.lh2
+  line-height 2
+
+// padding
+.p1
+  padding space1
+.pl1
+  padding-left space1
+.px1
+  padding-left space1
+  padding-right space1
+.py1
+  padding-top space1
+  padding-bottom space1
+.pl2
+  padding-left space2
+.p2
+  padding space2
+.px2
+  padding-left space2
+  padding-right space2
+.py2
+  padding-top space2
+  padding-bottom space2
+.pl3
+  padding-left space3
+.p3
+  padding space3
+.px3
+  padding-left space3
+  padding-right space3
+.py3
+  padding-top space3
+  padding-bottom space3
+.p4
+  padding space4
+.pl4
+  padding-left space4
+.px4
+  padding-left space4
+  padding-right space4
+.py4
+  padding-top space4
+  padding-bottom space4
+
+// margin
+.mx-auto
+  margin-left auto
+  margin-right auto
+.m1
+  margin space1
+.mt1
+  margin-bottom space1
+.mb1
+  margin-bottom space1
+.mb2
+  margin-bottom space2
+.my2
+  margin-top space2
+  margin-bottom space2
+.m2
+  margin space2
+.ml2
+  margin-left space2
+.m3
+  margin space3
+.m4
+  margin space4
+  
+// border
+.border
+  border 1px solid default_border_color
+.border-top
+  border-top 1px solid default_border_color
+.border-bottom
+  border-bottom 1px solid default_border_color
+.border-left
+  border-left 1px solid default_border_color
+.border-right
+  border-right 1px solid default_border_color
+.border-lighter
+  border-color color_lighter
+.border-dashed //仅底部
+  border-style none none dashed none
+
+// border-radius
+.round
+  border-radius 5px
+.circle
+  border-radius 50%
+  
+// flex
+.flex
+  display flex
+  vertical-align text-top
+.column
+  flex-direction column
+.justify-start
+  justify-content flex-start
+.justify-end
+  justify-content flex-end
+.justify-center
+  justify-content center
+.justify-between
+  justify-content space-between
+.justify-around
+  justify-content space-around
+.align-start
+  align-items flex-start  
+.align-end
+  align-items flex-end
+.self-center
+  align-self center
+.wrap
+  flex-wrap wrap
+.xy-center
+  flex-direction row
+  justify-content center
+  align-items center
+  
+// position
+.absolute
+  position absolute
+.relative
+  position relative
+.fixed
+  position pixed
+.top0
+  top 0
+.right0
+  right 0
+.bottom0
+  bottom 0
+.left0
+  left 0
+.w1
+  flex 1
+.w2
+  flex 2
+.w3
+  flex 3
+.w4
+  flex 4
+.w5
+  flex 5
+.w6
+  flex 6
+.w7
+  flex 7
+.w8
+  flex 8
+.w9
+  flex 9  
+.w10
+  width 100%
+.w25
+  flex 25
+.w33
+  flex 33
+.w34
+  flex 34
+.w66
+  flex 66
+.w67
+  flex 67  
+.fit //强制fit可使用w10
+  max-width 100%
+  height auto
+  
+// display
+.block
+  display block
+.inline
+  display inline
+.inline-block
+  display inline-block
+
+// align 
+.text-left
+  text-align left
+.text-center
+  text-align center
+.text-right
+  text-align right
+
+// 其他
+.overflow-y
+  overflow-y auto
+  
+// container
+.container
+  // position absolute
+  // top 0
+  // bottom 0
+  // width 100%
+
+// header
+.header
+  position fixed
+  background #fff
+  z-index 999
+  top 0
+  left 0
+  right 0
+  height default_header_height
+  border-bottom 1px solid #ddd
+  text-align center
+  vertical-align middle
+  line-height default_header_height
+  @extend .big
+.has-header
+  position absolute
+  top default_header_height 
+
+// main
+.main
+  position absolute
+  top default_header_height
+  bottom default_tabs_height
+  overflow-y auto
+
+// button
+.btn,button
+  background-color color_primary
+  border-radius 3px
+  color #fff
+  cursor pointer
+  display inline-block
+  @extend .normal
+  font-weight bold
+  letter-spacing 3px
+  line-height 2
+  padding 0 20px
+  text-align center
+  vertical-align middle
+  text-decoration none
+  white-space nowrap
+  &:hover
+    background darken(color_primary, 20%)
+  &.btn-sm
+    border-radius 2px
+    @extend .small
+    line-height 1.8
+    padding 0 10px
+  &.btn-lg
+    border-radius 5px
+    @extend .big
+    line-height 2.5
+    padding 0 30px
+
+// input
+
+// from
+
+// 待删
+.fade-enter-active, .fade-leave-active
+  transition all .2s ease
+
+.fade-enter, .fade-leave-active
+  opacity 0

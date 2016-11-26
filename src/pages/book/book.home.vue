@@ -1,4 +1,4 @@
-<template lang="jade">
+<template lang="jade"> 
   .container
     Header(title="挂号")
     .main

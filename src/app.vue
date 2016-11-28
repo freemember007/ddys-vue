@@ -15,5 +15,5 @@ export default {
 
 
 <style lang='stylus'>
-  @import './app.styl'
+@import './app.styl'
 </style>

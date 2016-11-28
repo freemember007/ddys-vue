@@ -4032,6 +4032,12 @@ void-elements@~2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/void-elements/download/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
 
+vue-awesome:
+  version "2.0.3"
+  resolved "http://registry.npm.taobao.org/vue-awesome/download/vue-awesome-2.0.3.tgz#edca9742769abdb6cb8204bd67c887cfca095e73"
+  dependencies:
+    vue "^2.0.1"
+
 vue-hot-reload-api@^2.0.1:
   version "2.0.6"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.0.6.tgz#817d4bfb30f55428aa1012d029499e07f3147d21"

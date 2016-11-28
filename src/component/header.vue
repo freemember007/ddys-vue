@@ -1,15 +1,18 @@
 <template lang="jade">
   .header
+    //- Icon(name="angle-left")
     .title
       | {{title}}
 </template>
 
 
 <script>
-
+// import Icon from 'vue-awesome/components/Icon.vue'
+// import 'vue-awesome/icons/angle-left'
 export default {
   name: 'Header',
   components: {
+    // Icon
   },
   data () {
     return {
@@ -23,6 +26,7 @@ export default {
 
 
 <style lang="stylus">
+// @import '../app_variables.styl'
 .header
   position fixed
   background #fff

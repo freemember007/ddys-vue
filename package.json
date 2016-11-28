@@ -25,7 +25,7 @@
     "html-webpack-plugin": "^2.24.1",
     "jade": "^1.11.0",
     "style-loader": "^0.13.1",
-    "stylus": "^g00.54.5",
+    "stylus": "^0.54.5",
     "stylus-loader": "^2.3.1",
     "vue-loader": "^9.7.0",
     "webpack": "^2.1.0-beta.25",

@@ -51,7 +51,7 @@
 <script>
 import hotHosList from '../../json/book_home_hotHosList'
 import hotDeptList from '../../json/book_home_hotDeptList'
-import Tabs from '../../component/Tabs.vue'
+import Tabs from '../../component/tabs.vue'
 import Header from '../../component/header.vue'
 
 export default {

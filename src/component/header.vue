@@ -1,13 +1,14 @@
 <template lang="jade">
   .header
-      .title
-        {{title}}
+    .title
+      | {{title}}
 </template>
 
 
 <script>
 
 export default {
+  name: 'Header',
   components: {
   },
   data () {

@@ -4,16 +4,16 @@
     .f2
       | 咨询
   .content.has-header
-  tabs(currentTab="consult")
+  Tabs(currentTab="consult")
 </template>
 
 
 <script>
-import tabs from '../../component/tabs.vue'
+import Tabs from '../../component/tabs.vue'
 
 export default {
   components: {
-    tabs
+    Tabs
   },
   data () {
     return {

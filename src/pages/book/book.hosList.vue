@@ -1,7 +1,6 @@
 <template lang="jade">
 .container
-  .header
-    .f2 选择医院
+  Header(title="选择医院",hasLeft=true)
   ul.has-header.pt2.w10
     li(v-for="hos in hosList",:key="hos.yyid")
       router-link.flex.bg-white.py4.px2.border-bottom(:to="'/deptList/' + hos.bookHosId")
@@ -18,10 +17,12 @@
 </template>
 
 <script>
-import bookApi from '../utils/bookApi.js'
+import bookApi from '../../utils/bookApi.js'
+import Header from '../../component/header.vue'
 
 export default {
   components: {
+    Header
   },
   data () {
     return {

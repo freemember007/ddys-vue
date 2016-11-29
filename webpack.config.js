@@ -19,7 +19,8 @@ module.exports = {
       {
         test: /\.js$/,
         loader: ['babel-loader?presets[]=stage-0'],
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        
       },
       {
         test: /\.(png|jpg|gif|svg)$/,

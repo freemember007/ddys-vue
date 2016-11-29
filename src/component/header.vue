@@ -1,25 +1,28 @@
 <template lang="jade">
   .header
-    //- Icon(name="angle-left")
+    .left(onclick="window.history.go(-1)")
+      Icon(name="angle-left",v-if="hasLeft",scale=2,color="#666")
     .title
       | {{title}}
+    .right
 </template>
 
 
 <script>
-// import Icon from 'vue-awesome/components/Icon.vue'
-// import 'vue-awesome/icons/angle-left'
+import Icon from 'vue-awesome/components/Icon.vue'
+import 'vue-awesome/icons/angle-left'
 export default {
   name: 'Header',
   components: {
-    // Icon
+    Icon
   },
   data () {
     return {
     }
   },
   props: [
-    'title'
+    'title',
+    'hasLeft'
   ]
 }
 </script>
@@ -36,9 +39,20 @@ export default {
   right 0
   height 48px
   border-bottom 1px solid #ddd
-  text-align center
-  vertical-align middle
-  line-height 48px
+  display flex
+  justify-content around
+  align-items center
 .title
   font-size 18px
+  flex 70
+.left
+  flex 15
+  display flex
+  justify-content center
+  align-items center
+.right
+  flex 15
+  display flex
+  justify-content center
+  align-items center
 </style>

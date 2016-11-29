@@ -1,6 +1,6 @@
 <template lang="jade">
   .container
-    Header(title="挂号")
+    Header(title="挂号",hasLeft=false)
     .main
       //- 搜索区
       .my2.gb-white
@@ -13,7 +13,7 @@
       //- 按钮区
       .my2.flex.row(style="height:140px")
         router-link.w4.flex.xy-center.border-right(
-          to="/hosList/0571"
+          to="/bookHosList/0571"
         )
           | 按医院预约
         .w6.flex.column

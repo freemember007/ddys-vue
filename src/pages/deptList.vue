@@ -28,7 +28,7 @@
 
 
 <script>
-import { Header, Button, Tabbar, TabItem } from 'mint-ui/lib/button'
+// import { Header, Button, Tabbar, TabItem } from 'mint-ui/lib/button'
 
 function fetchDeptList (store) {
   return store.dispatch('FETCH_DEPT_LIST', {
@@ -39,7 +39,7 @@ function fetchDeptList (store) {
 export default {
   name: 'dept-list',
   components: {
-    mtHeader: Header
+    // mtHeader: Header
   },
   data() {
     return {
